@@ -20,6 +20,7 @@ const Document = styled(PdfDocument)`
     align-items: center;
     background-color: #FFFFFF;
     position: relative;
+    overflow: hidden;
 `;
 
 const PageControl = styled.div`
