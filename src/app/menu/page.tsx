@@ -15,9 +15,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const Document = styled(PdfDocument)`
     width: 100%;
     height: 100vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
@@ -31,7 +31,7 @@ const Document = styled(PdfDocument)`
 const PageControl = styled.div`
     position: absolute;
     z-index: 2;
-    bottom: 5%;
+    bottom: 10%;
     left: 50%;
     background-color: #FFFFFF;
     transform: translate(-50%);
