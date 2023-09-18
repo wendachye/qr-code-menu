@@ -15,9 +15,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const Document = styled(PdfDocument)`
     width: 100%;
     height: 100vh;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
