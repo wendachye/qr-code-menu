@@ -31,7 +31,7 @@ const Document = styled(PdfDocument)`
 const PageControl = styled.div`
     position: absolute;
     z-index: 2;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     background-color: #FFFFFF;
     transform: translate(-50%);
