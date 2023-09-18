@@ -21,6 +21,11 @@ const Document = styled(PdfDocument)`
     background-color: #FFFFFF;
     position: relative;
     overflow: hidden;
+
+    canvas {
+        max-width: 100%;
+        height: auto;
+    }
 `;
 
 const PageControl = styled.div`
