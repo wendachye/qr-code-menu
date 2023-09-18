@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Page, Document as PdfDocument, pdfjs } from 'react-pdf';
+import { Document as PdfDocument, pdfjs } from 'react-pdf';
 
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
@@ -75,12 +75,12 @@ const Menu = () => {
 
     return (
         <main>
-            {/* <object
-                style={{ border: "none", height: "100vh", width: "100%" }}
-                data="/menu.pdf#toolbar=0&navpanes=0&scrollbar=0"
+            <object
+                style={{ height: "100vh", width: "100%" }}
+                data="/menu.pdf#toolbar=0"
                 type="application/pdf"
-            /> */}
-            <Document
+            />
+            {/* <Document
                 file="/menu.pdf" 
                 onLoadError={() => {
                     console.log("ERROR");
@@ -93,7 +93,7 @@ const Menu = () => {
                     <span>{`${currentPage} of ${totalPages}`}</span>
                     <button type="button" onClick={handlNextPage}>›</button>
                 </PageControl>
-            </Document>
+            </Document> */}
         </main>
     )
 }
