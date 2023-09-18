@@ -30,17 +30,12 @@ const PageControl = styled.div`
     background-color: #FFFFFF;
     transform: translate(-50%);
     transition: opacity ease-in-out 0.2s;
-    opacity: 0;
     border-radius: 4px;
     box-shadow: 0 30px 40px 0 rgba(16, 36, 94, .2);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-
-    &:hover {
-        opacity: 1;
-    }
 
     span {
         color: #000000
